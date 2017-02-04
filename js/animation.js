@@ -75,4 +75,11 @@
 /*$('.tweet-text').hover(function(){
   $('.tweet-actions').css('visibility', 'visible')
 });  didn't work */
-//will try to do with css *update -- got it with CSS
+/*will try to do with css *update -- got it with CSS
+.tweet-text:hover + .tweet-actions {
+  display: block;
+}*/
+
+$('.tweet').on('click', function() {
+  $('.stats').css('visibility', 'visible')
+});
